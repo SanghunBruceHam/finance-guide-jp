@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="日本の投資初心者向け金融ガイド！株、債券、不動産、預金の特徴をわかりやすく解説。2025年最新情報！">
+    <meta name="keywords" content="投資 初心者, 金融 勉強, NISA メリット, 日本 株 始め方, 不動産 投資">
+    <title>日本の金融ガイド</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        header {
+            background: linear-gradient(to right, #28a745, #20c997);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #28a745;
+        }
+        .ad-section {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 0.8rem;
+            text-align: left;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+            .container {
+                margin: 1rem;
+            }
+        }
+    </style>
+    <!-- Google AdSense 코드 -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">ホーム</a>
+        <a href="stocks.html">株投資</a>
+        <a href="bonds.html">債券</a>
+        <a href="real-estate.html">不動産</a>
+        <a href="savings.html">銀行預金</a>
+        <a href="news.html">金融ニュース</a>
+        <a href="calculator.html">投資計算機</a>
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+    </nav>
+    <header>
+        <h1>日本の金融ガイド</h1>
+        <p>投資初心者向け！株、債券、不動産、預金の特徴をわかりやすく解説</p>
+    </header>
+    <div class="container">
+        <!-- 광고 섹션 -->
+        <div class="ad-section">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                 data-ad-slot="XXXXXXXXXX"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="section">
+            <h2>金融勉強を始めよう</h2>
+            <p>投資は資産を増やすための強力な手段です。日本ではNISAや株、債券、不動産、銀行預金など多様な選択肢があります。このサイトでは、<a href="stocks.html">株投資</a>、<a href="bonds.html">債券</a>、<a href="real-estate.html">不動産</a>、<a href="savings.html">銀行預金</a>の特徴と始め方を解説します（<a href="https://www.fsa.go.jp">金融庁</a>）。</p>
+            <h3>投資先の比較</h3>
+            <table>
+                <tr>
+                    <th>投資先</th>
+                    <th>メリット</th>
+                    <th>デメリット</th>
+                    <th>リスク</th>
+                </tr>
+                <tr>
+                    <td>株</td>
+                    <td>高リターン、NISAで非課税</td>
+                    <td>価格変動大</td>
+                    <td>中～高</td>
+                </tr>
+                <tr>
+                    <td>債券</td>
+                    <td>安定性、固定収入</td>
+                    <td>低リターン</td>
+                    <td>低～中</td>
+                </tr>
+                <tr>
+                    <td>不動産</td>
+                    <td>家賃収入、REITで少額投資可</td>
+                    <td>管理コスト</td>
+                    <td>中</td>
+                </tr>
+                <tr>
+                    <td>銀行預金</td>
+                    <td>安全性、元本保証</td>
+                    <td>低利回り</td>
+                    <td>低</td>
+                </tr>
+            </table>
+            <p>キーワード: 投資 初心者, 金融 勉強</p>
+        </div>
+        <!-- 광고 섹션 -->
+        <div class="ad-section">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                 data-ad-slot="XXXXXXXXXX"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 日本の金融ガイド | <a href="https://www.fsa.go.jp">金融庁</a> | <a href="https://x.com/youraccount">Xでフォロー</a></p>
+    </footer>
+</body>
+</html>
