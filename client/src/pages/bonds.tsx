@@ -3,7 +3,7 @@ import Footer from "@/components/footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { Shield, TrendingUp, AlertTriangle, DollarSign, BarChart3, Clock, Building, Target } from "lucide-react";
+import { Shield, TrendingUp, AlertTriangle, DollarSign, BarChart3, Clock, Building, Target, BookOpen } from "lucide-react";
 
 export default function BondsPage() {
   const bondTypes = [
@@ -121,6 +121,188 @@ export default function BondsPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* 債券制度の本質と政策意図 */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8">債券制度の本質的理解</h2>
+        
+        {/* なぜ債券が必要なのか */}
+        <Card className="mb-12">
+          <CardHeader>
+            <CardTitle className="flex items-center text-2xl">
+              <BookOpen className="w-6 h-6 mr-3 text-finance-blue" />
+              なぜ政府と企業は債券を発行するのか？
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-blue-800 mb-3">🏛️ 政府債券（国債）の存在理由</h3>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-800 mb-2">📈 長期的な国家建設</h4>
+                  <p className="text-sm text-gray-700">
+                    インフラ整備、教育、医療など、すぐには収益が出ないが国民生活に不可欠な投資。
+                    税収だけでは賄えない大規模事業の資金調達手段。
+                  </p>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-blue-800 mb-2">⚖️ 経済安定化機能</h4>
+                  <p className="text-sm text-gray-700">
+                    不況時は国債発行で経済刺激、好況時は発行抑制でインフレ抑制。
+                    経済の自動安定化装置としての役割。
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-r from-emerald-50 to-green-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-emerald-800 mb-3">🏢 企業債券（社債）の戦略的意味</h3>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-emerald-800 mb-2">💰 資金調達の多様化</h4>
+                  <p className="text-sm text-gray-700">
+                    銀行借入だけに依存せず、直接市場から資金調達。
+                    より柔軟で長期的な資金計画が可能に。
+                  </p>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-emerald-800 mb-2">📊 経営の規律化</h4>
+                  <p className="text-sm text-gray-700">
+                    投資家への説明責任により、経営透明性と効率性が向上。
+                    市場からの監視で企業統治が強化。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* 日本の金融政策と債券市場 */}
+        <Card className="mb-12">
+          <CardHeader>
+            <CardTitle className="flex items-center text-2xl">
+              <Building className="w-6 h-6 mr-3 text-purple-600" />
+              日本銀行の金融政策と債券市場の役割
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            <div className="bg-purple-50 p-6 rounded-lg">
+              <h3 className="text-lg font-semibold text-purple-800 mb-4">🎯 金融政策の伝達メカニズム</h3>
+              <div className="grid md:grid-cols-4 gap-3">
+                <div className="text-center p-3 bg-white rounded-lg">
+                  <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                    <span className="text-white text-sm font-bold">1</span>
+                  </div>
+                  <h4 className="font-semibold text-purple-800 text-sm">日銀の政策決定</h4>
+                  <p className="text-xs text-purple-600">政策金利の設定</p>
+                </div>
+                <div className="text-center p-3 bg-white rounded-lg">
+                  <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                    <span className="text-white text-sm font-bold">2</span>
+                  </div>
+                  <h4 className="font-semibold text-purple-800 text-sm">債券市場へ影響</h4>
+                  <p className="text-xs text-purple-600">国債利回りの変動</p>
+                </div>
+                <div className="text-center p-3 bg-white rounded-lg">
+                  <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                    <span className="text-white text-sm font-bold">3</span>
+                  </div>
+                  <h4 className="font-semibold text-purple-800 text-sm">企業・個人へ波及</h4>
+                  <p className="text-xs text-purple-600">借入金利の変化</p>
+                </div>
+                <div className="text-center p-3 bg-white rounded-lg">
+                  <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                    <span className="text-white text-sm font-bold">4</span>
+                  </div>
+                  <h4 className="font-semibold text-purple-800 text-sm">経済全体へ影響</h4>
+                  <p className="text-xs text-purple-600">投資・消費の変化</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-blue-50 p-4 rounded-lg">
+                <h4 className="font-semibold text-blue-800 mb-3">💡 なぜ日銀は国債を大量購入するのか？</h4>
+                <ul className="text-sm text-blue-700 space-y-2">
+                  <li>• <strong>量的緩和政策</strong>: 市場に資金を大量供給してデフレ脱却</li>
+                  <li>• <strong>長期金利のコントロール</strong>: 10年国債利回りを0%程度に誘導</li>
+                  <li>• <strong>金融機関の資金繰り支援</strong>: 銀行の貸出余力を拡大</li>
+                  <li>• <strong>円安誘導効果</strong>: 輸出企業の競争力向上</li>
+                </ul>
+              </div>
+              
+              <div className="bg-amber-50 p-4 rounded-lg">
+                <h4 className="font-semibold text-amber-800 mb-3">⚠️ 2025年の政策転換点</h4>
+                <ul className="text-sm text-amber-700 space-y-2">
+                  <li>• <strong>正常化への道筋</strong>: 段階的な金利引き上げ開始</li>
+                  <li>• <strong>国債購入減額</strong>: テーパリング（量的緩和縮小）</li>
+                  <li>• <strong>投資家への影響</strong>: 債券価格の変動拡大</li>
+                  <li>• <strong>新たな投資機会</strong>: 高利回り債券の登場</li>
+                </ul>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* 債券投資の社会的意義 */}
+        <Card className="mb-12">
+          <CardHeader>
+            <CardTitle className="flex items-center text-2xl">
+              <Target className="w-6 h-6 mr-3 text-finance-green" />
+              債券投資の社会的意義と個人への効果
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <h3 className="text-lg font-semibold text-finance-green">🌍 社会全体への貢献</h3>
+                <div className="space-y-3">
+                  <div className="p-4 bg-green-50 rounded-lg">
+                    <h4 className="font-semibold">国家インフラの整備</h4>
+                    <p className="text-sm text-gray-700">道路、橋、学校、病院など、社会基盤整備の資金源</p>
+                  </div>
+                  <div className="p-4 bg-green-50 rounded-lg">
+                    <h4 className="font-semibold">企業の成長支援</h4>
+                    <p className="text-sm text-gray-700">新事業展開、設備投資により雇用創出と経済成長に貢献</p>
+                  </div>
+                  <div className="p-4 bg-green-50 rounded-lg">
+                    <h4 className="font-semibold">金融システムの安定</h4>
+                    <p className="text-sm text-gray-700">リスクの低い運用先として金融機関の健全性を支える</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="space-y-4">
+                <h3 className="text-lg font-semibold text-finance-blue">👤 個人投資家のメリット</h3>
+                <div className="space-y-3">
+                  <div className="p-4 bg-blue-50 rounded-lg">
+                    <h4 className="font-semibold">安定した老後資金形成</h4>
+                    <p className="text-sm text-gray-700">定期的な利息収入で将来不安を軽減</p>
+                  </div>
+                  <div className="p-4 bg-blue-50 rounded-lg">
+                    <h4 className="font-semibold">インフレ対策</h4>
+                    <p className="text-sm text-gray-700">物価連動債券で購買力を維持</p>
+                  </div>
+                  <div className="p-4 bg-blue-50 rounded-lg">
+                    <h4 className="font-semibold">ポートフォリオの安定化</h4>
+                    <p className="text-sm text-gray-700">株式との逆相関でリスク分散効果</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-r from-finance-blue to-blue-500 text-white p-6 rounded-lg">
+              <h4 className="font-semibold mb-2">🎯 債券投資の本質的価値</h4>
+              <p>
+                債券投資は単なる「安全な運用」を超えた意味があります。<strong>社会インフラの整備や企業の成長に直接貢献</strong>しながら、
+                個人の資産形成も実現する<strong>「社会と個人の Win-Win の仕組み」</strong>です。
+                特に高齢社会の日本では、<strong>安定収入を求める投資家のニーズ</strong>と<strong>長期資金を必要とする発行体</strong>の利害が一致し、
+                ますます重要性が高まっています。
+              </p>
+            </div>
+          </CardContent>
+        </Card>
       </section>
 
       {/* 債券の基礎知識 */}
