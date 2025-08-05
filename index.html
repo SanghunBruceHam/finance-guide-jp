@@ -26,6 +26,13 @@
     <meta name="twitter:description" content="日本の投資初心者向け金融ガイド！株、債券、不動産、預金の特徴をわかりやすく解説。" />
     <script type="module" crossorigin src="./assets/index-LN_JoBgp.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-CsRNlZuq.css">
+    <script>
+      // GitHub Pages SPA redirect handling
+      if (sessionStorage.redirect) {
+        window.history.replaceState(null, null, sessionStorage.redirect);
+        delete sessionStorage.redirect;
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
