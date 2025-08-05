@@ -51,6 +51,8 @@ export default {
           "4": "var(--chart-4)",
           "5": "var(--chart-5)",
         },
+        'finance-green': '#10b981',
+        'finance-blue': '#3b82f6',
         sidebar: {
           DEFAULT: "var(--sidebar-background)",
           foreground: "var(--sidebar-foreground)",
