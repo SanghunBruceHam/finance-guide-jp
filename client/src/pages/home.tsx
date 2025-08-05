@@ -1,7 +1,9 @@
 import Navigation from "@/components/navigation";
 import HeroSection from "@/components/hero-section";
 import InvestmentComparison from "@/components/investment-comparison";
+import AdvancedInvestmentComparison from "@/components/advanced-investment-comparison";
 import InvestmentCalculator from "@/components/investment-calculator";
+import MarketTrendsDashboard from "@/components/market-trends-dashboard";
 import NewsSection from "@/components/news-section";
 import FAQSection from "@/components/faq-section";
 import Footer from "@/components/footer";
@@ -81,6 +83,14 @@ export default function Home() {
 
       <InvestmentComparison />
       <AdSenseBanner />
+      
+      {/* Advanced Investment Analysis */}
+      <AdvancedInvestmentComparison />
+      <AdSenseBanner />
+      
+      {/* Market Trends Dashboard */}
+      <MarketTrendsDashboard />
+      
       <InvestmentCalculator />
       <NewsSection />
       <FAQSection />
