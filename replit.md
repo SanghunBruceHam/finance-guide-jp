@@ -77,3 +77,17 @@ Preferred communication style: Simple, everyday language.
 ## Replit-Specific Integrations
 - **Development Tools**: Replit Vite plugins for error handling and cartographer integration
 - **Deployment**: Configured for Replit's hosting environment with appropriate build and start scripts
+- **Static Deployment Fix**: Custom build script (`build-for-deployment.sh`) created to resolve deployment structure issue where Vite builds to `dist/public` but static deployment expects files directly in `dist`
+
+## Deployment Instructions
+
+### For Static Deployment
+Due to the build output structure mismatch, use the custom build script for deployment:
+
+1. **Manual Deployment Build**: Run `./build-for-deployment.sh` instead of `npm run build`
+2. **Deploy**: The `dist/` directory will now contain the correct structure for static deployment
+3. **Alternative**: Manually update the .replit file to use `build = ["./build-for-deployment.sh"]` instead of `build = ["npm", "run", "build"]`
+
+### Build Output Structure
+- **Standard Build**: Creates `dist/public/` with static files and `dist/index.js` with server
+- **Deployment Build**: Moves static files to `dist/` root level as required by Replit static deployment
